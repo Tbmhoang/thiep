@@ -1,0 +1,68 @@
+/* tk.css - Styling for Studio Thiết Kế */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #2D2A26;
+    background-color: #FAF8F5;
+}
+
+.font-serif {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Custom styles for Live Preview Themes */
+.preview-royal {
+    background-color: #FAF6F0 !important;
+    border-color: #D4AF37 !important;
+    color: #2D2A26 !important;
+}
+
+.preview-minimal {
+    background-color: #F6F4F0 !important;
+    border-color: #A8AEA9 !important;
+    color: #2D2A26 !important;
+}
+
+.preview-botanical {
+    background-color: #F4F7F4 !important;
+    border-color: #889B88 !important;
+    color: #2D2A26 !important;
+}
+
+.preview-nocturne {
+    background-color: #1C1917 !important;
+    border-color: #E0C298 !important;
+    color: #EDE8E1 !important;
+}
+
+.preview-nocturne #card-couple-name,
+.preview-nocturne #card-venue-name,
+.preview-nocturne #card-time-date {
+    color: #FBF9F5 !important;
+}
+
+.preview-nocturne .bg-white\/80,
+.preview-nocturne .bg-white\/90 {
+    background-color: #262320 !important;
+    border-color: #443E38 !important;
+    color: #EDE8E1 !important;
+}
+
+.preview-nocturne p,
+.preview-nocturne span {
+    color: #A89F91 !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+    background: #C5A880;
+    border-radius: 3px;
+}

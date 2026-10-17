@@ -1,0 +1,33 @@
+/* tc.css - Styling for Trang chủ Thiệp Mời */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #2D2A26;
+    background-color: #FAF8F5;
+}
+
+.font-serif {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Modal preview styles */
+#preview-modal {
+    transition: opacity 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+    background: #C5A880;
+    border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #9A7B4F;
+}
